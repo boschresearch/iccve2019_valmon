@@ -1,0 +1,6 @@
+numpy
+scipy
+pytest
+matplotlib
+control
+matplotlib2tikz
