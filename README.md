@@ -4,25 +4,26 @@ monitor for vehicle dynamics models; Stephan Rhode and Johannes
 von Keler; 2019 IEEE International Conference on Connected 
 Vehicles and Expo (ICCVE)
 
-    @INPROCEEDINGS{Rhod1911:Online,
-        AUTHOR="Stephan Rhode and Johannes {von Keler}",
-        TITLE="Online validity monitor for vehicle dynamics models",
-        BOOKTITLE="2019 IEEE International Conference on Connected Vehicles and Expo (ICCVE)
-        (IEEE ICCVE 2019)",
-        ADDRESS="Graz, Austria",
-        DAYS=3,
-        MONTH=nov,
-        YEAR=2019,
-        ABSTRACT="This paper presents a method to measure the degree of validity of vehicle
-        dynamics models during run time in a computational efficient way. The
-        method is called online validity monitor and is constructed as follows.
-        First, the characteristic validation error distribution of a vehicle
-        dynamics model is stored. Second, during run time, an error distribution is
-        recorded via a circular buffer. Third, the distance between stored and run
-        time error distribution is taken as a measure to detect if the model
-        operates in its validated domain."
-    }
+    @InProceedings{Rhode2019,
+      Title                    = {Online validity monitor for vehicle dynamics models},
+      Author                   = {S. {Rhode} and J. {Von Keler}},
+      Abstract                 = {This paper presents a method to measure the degree of validity of vehicle
+            dynamics models during run time in a computational efficient way. The
+            method is called online validity monitor and is constructed as follows.
+            First, the characteristic validation error distribution of a vehicle
+            dynamics model is stored. Second, during run time, an error distribution is
+            recorded via a circular buffer. Third, the distance between stored and run
+            time error distribution is taken as a measure to detect if the model
+            operates in its validated domain.}
+      Booktitle                = {2019 IEEE International Conference on Connected Vehicles and Expo (ICCVE)},
+      Year                     = {2019},
+      Month                    = {Nov},
+      Pages                    = {1-6},
 
+      Doi                      = {10.1109/ICCVE45908.2019.8965162},
+      ISSN                     = {2378-1289},
+      Keywords                 = {Model validation;online;vehicle dynamics;Jensen-Shannon divergence}
+    }
 
 ## Purpose
 This software is a research prototype, solely developed for and 
